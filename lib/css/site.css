@@ -1,0 +1,51 @@
+/* Page CSS */
+#page {
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+    background-color: #fdf6e3;
+    color: #657b83;
+}
+
+#page-row {
+    height: 100%;
+}
+
+/* Nav-Bar CSS */
+#nav-bar {
+    padding-left: 30px;
+}
+
+#nav-bar-title {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+#nav-bar-options a {
+    background-color: transparent;
+    border: none;
+    color: #657b83;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+#nav-bar-options a:hover {
+    background-color: #eee8d5;
+    text-decoration: transparent;
+}
+
+#nav-bar-social {
+    margin-bottom: 25px;
+}
+
+#nav-bar-social div {
+    height: 100%;
+}
+
+#nav-bar-social a {
+    color: #657b83;
+}
+
+#nav-bar-social a:first-of-type {
+    padding-left: 0;
+}
