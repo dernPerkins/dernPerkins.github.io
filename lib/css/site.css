@@ -1,9 +1,11 @@
 /* Page CSS */
+body {
+    background-color: #fdf6e3;
+}
 #page {
     width: 100vw;
     max-width: none;
     height: 100vh;
-    background-color: #fdf6e3;
     color: #657b83;
 }
 
