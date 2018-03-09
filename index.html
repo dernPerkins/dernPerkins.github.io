@@ -13,16 +13,36 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
     <body>
+        <nav id="mobile-nav-bar" class="navbar navbar-expand-md fixed-top d-lg-none">
+            <a class="navbar-brand" href="#">Dean Perkins</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div id="page" class="container">
             <div id="page-row" class="row">
-                <div id="nav-bar" class="row col-lg-2">
+                <div id="nav-bar" class="row col-2 d-none d-lg-flex">
                     <div class="nav-bar-title col-12 align-start">
-                        <div class="person-name">Dean Perkins</div>
-                        <div class="person-title">Full Stack</div>
+                        <a href="#">
+                            <div class="person-name">Dean Perkins</div>
+                            <div class="person-title">Full Stack</div>
+                        </a>
                     </div>
                     <div class="nav-bar-options col-12 align-center d-flex align-items-center">
                         <ul class="list-group">
-                            <a class="list-group-item" href="#">Home</a>
                             <a class="list-group-item" href="#">Projects</a>
                             <a class="list-group-item" href="#">About</a>
                             <a class="list-group-item" href="#">Contact</a>
@@ -44,33 +64,6 @@
                 </div>
                 <div id="page-content" class="col-12 col-lg-10 text-center">
                     <p>Hi</p>
-                </div>
-                <div id="slide-nav-bar">
-                    <div class="nav-bar-title col-12 align-start">
-                        <div class="person-name">Dean Perkins</div>
-                        <div class="person-title">Full Stack</div>
-                    </div>
-                    <div class="nav-bar-options col-12 align-center d-flex align-items-center">
-                        <ul class="list-group">
-                            <a class="list-group-item" href="#">Home</a>
-                            <a class="list-group-item" href="#">Projects</a>
-                            <a class="list-group-item" href="#">About</a>
-                            <a class="list-group-item" href="#">Contact</a>
-                        </ul>
-                    </div>
-                    <div class="nav-bar-social col-12 align-end">
-                        <div class="d-flex align-items-end">
-                            <a href="#" class="col-auto">
-                                <span class="ion-social-instagram-outline" aria-hidden="true"></span>
-                            </a>
-                            <a href="#" class="col-auto">
-                                <span class="ion-social-github" aria-hidden="true"></span>
-                            </a>
-                            <a href="#" class="col-auto">
-                                <span class="ion-social-linkedin" aria-hidden="true"></span>
-                            </a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

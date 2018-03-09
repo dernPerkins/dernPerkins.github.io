@@ -2,11 +2,16 @@
 body {
     background-color: #fdf6e3;
 }
+
 #page {
     width: 100vw;
     max-width: none;
     height: 100vh;
     color: #657b83;
+}
+
+#page-content {
+    margin-top: 25px;
 }
 
 #page-row {
@@ -39,6 +44,10 @@ body {
     padding-left: 15px;
 }
 
+.nav-bar-title a {
+    color: #657b83;
+}
+
 .nav-bar-options a {
     background-color: transparent;
     border: none;
@@ -68,12 +77,24 @@ body {
     padding-left: 0;
 }
 
-@media (max-width: 991px) {
-    #nav-bar {
-        display: none;
-    }
+#mobile-nav-bar {
+}
 
-    #slide-nav-bar {
-        display: flex;
+#mobile-nav-bar a {
+    color: #657b83;
+}
+
+#mobile-nav-bar .navbar-brand {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#mobile-nav-bar .nav-link {
+    font-size: 26px;
+}
+
+@media (max-width: 991px) {
+    #page-content {
+        margin-top: 75px;
     }
 }
