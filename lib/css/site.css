@@ -14,16 +14,32 @@ body {
 }
 
 /* Nav-Bar CSS */
+#person-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#person-title {
+    font-size: 0.7rem;
+}
+
 #nav-bar {
     padding-left: 30px;
 }
 
-#nav-bar-title {
+#slide-nav-bar {
+    display: none;
+    position: absolute;
+    height: 100%;
+    flex-flow: wrap;
+}
+
+.nav-bar-title {
     margin-top: 25px;
     padding-left: 15px;
 }
 
-#nav-bar-options a {
+.nav-bar-options a {
     background-color: transparent;
     border: none;
     color: #657b83;
@@ -31,23 +47,33 @@ body {
     margin-bottom: 5px;
 }
 
-#nav-bar-options a:hover {
+.nav-bar-options a:hover {
     background-color: #eee8d5;
     text-decoration: transparent;
 }
 
-#nav-bar-social {
+.nav-bar-social {
     margin-bottom: 25px;
 }
 
-#nav-bar-social div {
+.nav-bar-social div {
     height: 100%;
 }
 
-#nav-bar-social a {
+.nav-bar-social a {
     color: #657b83;
 }
 
-#nav-bar-social a:first-of-type {
+.nav-bar-social a:first-of-type {
     padding-left: 0;
+}
+
+@media (max-width: 991px) {
+    #nav-bar {
+        display: none;
+    }
+
+    #slide-nav-bar {
+        display: flex;
+    }
 }
