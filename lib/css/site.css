@@ -18,14 +18,60 @@ body {
     height: 100%;
 }
 
+.code-block {
+    color: #657b83;
+    font-size: 24px;
+}
+
+.base0 {
+    color: #839496;
+}
+
+.base01 {
+    color: #586e75;
+}
+
+.base1 {
+    color: #93a1a1;
+}
+
+.base2 {
+    color: #eee8d5;
+}
+
+.violet {
+    color: #6c71c4;
+}
+
+.blue {
+    color: #268bd2;
+}
+
+.green {
+    color: #859900;
+}
+
+.orange {
+    color: #cb4b16;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#profile-image {
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
 /* Nav-Bar CSS */
-#person-name {
-    font-size: 0.8rem;
+.person-name {
+    font-size: 12pt;
     font-weight: 600;
 }
 
-#person-title {
-    font-size: 0.7rem;
+.person-title {
+    font-size: 10pt;
 }
 
 #nav-bar {
@@ -85,16 +131,20 @@ body {
 }
 
 #mobile-nav-bar .navbar-brand {
-    font-size: 36px;
+    font-size: 34pt;
     font-weight: 600;
 }
 
 #mobile-nav-bar .nav-link {
-    font-size: 26px;
+    font-size: 24pt;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     #page-content {
         margin-top: 75px;
+    }
+
+    .code-block {
+        font-size: 32px;
     }
 }

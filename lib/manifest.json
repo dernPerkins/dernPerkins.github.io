@@ -1,0 +1,8 @@
+{
+    "name": "Dern Perkins GitHub IO",
+    "short_name": "DernPerkins",
+    "start_url": ".",
+    "display": "standalone",
+    "orientation":  "landscape",
+    "description": "A simple porfolio website for Dean Perkins."
+}
