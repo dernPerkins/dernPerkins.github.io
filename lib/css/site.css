@@ -4,7 +4,7 @@ body {
 }
 
 #page {
-    width: 100vw;
+    width: 100%;
     max-width: none;
     height: 100vh;
     color: #657b83;
@@ -90,6 +90,8 @@ body {
 
 #nav-bar {
     padding-left: 30px;
+    position: fixed;
+    height: 100%;
 }
 
 #slide-nav-bar {
