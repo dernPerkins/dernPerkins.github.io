@@ -1,0 +1,36 @@
+#screen {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "time" "menus";
+}
+
+#time {
+    grid-area: time;
+}
+
+#menus {
+    grid-area: menus;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "daily media reddit";
+    grid-column-gap: 25px;
+}
+
+#daily {
+    grid-area: daily;
+}
+
+#media {
+    grid-area: media;
+}
+
+#reddit {
+    grid-area: reddit;
+}
+
+.menu {
+    height: 200px;
+    overflow: scroll;
+}
