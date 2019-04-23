@@ -3,6 +3,8 @@
     <head>
         <!-- Site Css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="lib/css/solarized-dark.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/css/source-code-pro-font.css">
         <link rel="stylesheet" href="lib/css/starterpage.css">
         
         <!-- Site Manifest -->
@@ -12,37 +14,39 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="lib/js/starterpage.js"></script>
     </head>
     <body class="h-100">
         <div id="screen" class="h-100">
-            <div id="time">
-
-            </div>
-            <div id="menus" class="w-50">
-                <div id="daily" class="menu">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Inbox</li>
-                        <li class="list-group-item">GitHub</li>
-                        <li class="list-group-item">Drive</li>
-                        <li class="list-group-item">Instagram</li>
+            <div id="time" class="cyan-color"></div>
+            <div id="menus">
+                <div id="daily" class="menu base02-background">
+                    <h4 class="yellow-color">Daily</h4>
+                    <ul class="list-group list-group-flush yellow-color">
+                        <li class="list-group-item border-0"><a>Inbox</a></li>
+                        <li class="list-group-item border-0"><a>GitHub</a></li>
+                        <li class="list-group-item border-0"><a>Drive</a></li>
+                        <li class="list-group-item border-0"><a>Instagram</a></li>
                     </ul>
                 </div>
-                <div id="media" class="menu">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Twitch</li>
-                            <li class="list-group-item">Youtube</li>
-                            <li class="list-group-item">Netflix</li>
-                        </ul>
+                <div id="media" class="menu base02-background">
+                    <h4 class="cyan-color">Media</h4>
+                    <ul class="list-group list-group-flush cyan-color">
+                        <li class="list-group-item border-0"><a>Twitch</a></li>
+                        <li class="list-group-item border-0"><a>Youtube</a></li>
+                        <li class="list-group-item border-0"><a>Netflix</a></li>
+                    </ul>
                 </div>
-                <div id="reddit" class="menu">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">/r/mechanicalkeyboards</li>
-                            <li class="list-group-item">/r/mechmarket</li>
-                            <li class="list-group-item">/r/pcgaming</li>
-                            <li class="list-group-item">/r/mmorpg</li>
-                            <li class="list-group-item">/r/oculus</li>
-                            <li class="list-group-item">/r/bouldering</li>
-                        </ul>
+                <div id="reddit" class="menu base02-background">
+                    <h4 class="green-color">Reddit</h4>
+                    <ul class="list-group list-group-flush green-color">
+                        <li class="list-group-item border-0"><a>/r/mechanicalkeyboards</a></li>
+                        <li class="list-group-item border-0"><a>/r/mechmarket</a></li>
+                        <li class="list-group-item border-0"><a>/r/pcgaming</a></li>
+                        <li class="list-group-item border-0"><a>/r/mmorpg</a></li>
+                        <li class="list-group-item border-0"><a>/r/oculus</a></li>
+                        <li class="list-group-item border-0"><a>/r/bouldering</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
