@@ -77,25 +77,25 @@ a, a:visited {
 }
 
 /* Solarized Dark Colors */
-html {
-    background-color: #073642;
-    color: #839496;
+body {
+    background-color: #3b4252;
+    color: #eceff4;
 }
 
 .base02-background {
-    background: #073642 !important;
+    background: #434c5e !important;
 }
 
 .yellow-color {
-    color: #b58900 !important;
+    color: #ebcb8b !important;
 }
 
 .cyan-color {
-    color: #2aa198 !important;
+    color: #88c0d0 !important;
 }
 
 .green-color {
-    color: #859900 !important;
+    color: #a3be8c !important;
 }
 
 /* Custom Scroll Bars */
