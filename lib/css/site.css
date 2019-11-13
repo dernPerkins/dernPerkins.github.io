@@ -1,0 +1,179 @@
+/* Page CSS */
+body {
+    background-color: #fdf6e3;
+}
+
+#page {
+    width: 100%;
+    max-width: none;
+    height: 100vh;
+    color: #657b83;
+}
+
+#page-content {
+    margin-top: 25px;
+}
+
+#page-row {
+    height: 100%;
+}
+
+.code-block {
+    color: #657b83;
+    font-size: 24px;
+}
+
+.base0 {
+    color: #839496;
+}
+
+.base01 {
+    color: #586e75;
+}
+
+.base1 {
+    color: #93a1a1;
+}
+
+.base2 {
+    color: #eee8d5;
+}
+
+.violet {
+    color: #6c71c4;
+}
+
+.blue {
+    color: #268bd2;
+}
+
+.green {
+    color: #859900;
+}
+
+.orange {
+    color: #cb4b16;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#profile-image {
+    border-radius: 50%;
+    margin-bottom: 35px;
+    max-width: 400px;
+}
+
+/* Post CSS */
+.post-header {
+    font-weight: normal;
+}
+
+.post-subheader {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.post-content {
+    margin-top: 15px;
+}
+
+/* Nav-Bar CSS */
+.person-name {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.person-title {
+    font-size: 10pt;
+}
+
+#nav-bar {
+    padding-left: 30px;
+    position: fixed;
+    height: 100%;
+}
+
+#slide-nav-bar {
+    display: none;
+    position: absolute;
+    height: 100%;
+    flex-flow: wrap;
+}
+
+.nav-bar-title {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+
+.nav-bar-title a {
+    color: #657b83;
+}
+
+.nav-bar-options a {
+    background-color: transparent;
+    border: none;
+    color: #657b83;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+.nav-bar-options a:hover {
+    background-color: #eee8d5;
+    text-decoration: transparent;
+    border-radius: 12px;
+}
+
+.nav-bar-social {
+    margin-bottom: 25px;
+}
+
+.nav-bar-social div {
+    height: 100%;
+}
+
+.nav-bar-social a {
+    color: #657b83;
+}
+
+.nav-bar-social a:first-of-type {
+    padding-left: 0;
+}
+
+#mobile-nav-bar {
+    background-color: #fdf6e3;
+}
+
+#mobile-nav-bar a {
+    color: #657b83;
+}
+
+#mobile-nav-bar .navbar-brand {
+    font-size: 34pt;
+    font-weight: 600;
+}
+
+#mobile-nav-bar .nav-link {
+    font-size: 24pt;
+}
+
+@media (max-width: 992px) {
+    #page-content {
+        margin-top: 75px;
+    }
+
+    .code-block {
+        font-size: 32px;
+    }
+}
+
+/* Card Design */
+.card {
+    width: 500px;
+    height: 250px;
+}
+
+.card-links {
+    
+}
